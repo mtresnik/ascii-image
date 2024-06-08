@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+/.idea
+cmake-build-*/
+/cmake-build-debug/
+/.idea/
+/libs/opencv/
