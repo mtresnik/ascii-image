@@ -78,7 +78,7 @@ cv::Mat convertToAscii(cv::Mat colored, cv::Mat greyscale, std::string asciiRamp
             int blue = coloredPixel[0];
             int green = coloredPixel[1];
             int red = coloredPixel[2];
-            cv::putText(outputImage, s, cv::Point(newCol,newRow), cv::FONT_HERSHEY_DUPLEX, 0.75, CV_RGB(red, green, blue), 1);
+            cv::putText(outputImage, s, cv::Point(newCol,newRow), cv::FONT_HERSHEY_DUPLEX, 0.75, CV_RGB(red, green, blue), 3);
         }
     }
     return outputImage;

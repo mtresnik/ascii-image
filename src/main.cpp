@@ -3,7 +3,7 @@
 #include "multi_frame.h"
 
 void singleFrame() {
-    std::string imagePath = "mike.jpg";
+    std::string imagePath = "fruits.jpg";
     cv::Mat outputImage = convertToAsciiSingleFrame(imagePath, false);
     cv::imwrite("ascii.jpg", outputImage);
 }
@@ -14,6 +14,6 @@ void multiFrame() {
 }
 
 int main() {
-    multiFrame();
+    singleFrame();
     return 0;
 }
